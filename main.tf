@@ -3,7 +3,7 @@
 resource "aviatrix_vpc" "gcp_vpc" {
   cloud_type   = 4
   account_name = "shahzad-single-cloud-project"
-  name         = "gcp-uswest1-vpc"
+  name         = "gcp-transit-vpc-uswest1"
 
   subnets {
     name   = "uswest1-subnet-1"
