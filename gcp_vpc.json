@@ -1,0 +1,36 @@
+{
+    "account_name" = "shahzad-single-cloud-project"
+    "availability_domains" = tolist([])
+    "aviatrix_firenet_vpc" = false
+    "aviatrix_transit_vpc" = false
+    "azure_vnet_resource_id" = tostring(null)
+    "cidr" = tostring(null)
+    "cloud_type" = 4
+    "enable_native_gwlb" = false
+    "enable_private_oob_subnet" = false
+    "fault_domains" = tolist([])
+    "id" = "gcp-transit-vpc-uswest1"
+    "name" = "gcp-transit-vpc-uswest1"
+    "num_of_subnet_pairs" = tonumber(null)
+    "private_subnets" = tolist([])
+    "public_subnets" = tolist([])
+    "region" = tostring(null)
+    "resource_group" = tostring(null)
+    "route_tables" = tolist([])
+    "subnet_size" = tonumber(null)
+    "subnets" = tolist([
+      {
+        "cidr" = "10.10.11.0/24"
+        "name" = "uswest1-subnet-1"
+        "region" = "us-west1"
+        "subnet_id" = ""
+      },
+      {
+        "cidr" = "10.10.12.0/24"
+        "name" = "uswest1-subnet-2"
+        "region" = "us-west1"
+        "subnet_id" = ""
+      },
+    ])
+    "vpc_id" = "gcp-transit-vpc-uswest1~-~shahzad-single-cloud"
+  }
